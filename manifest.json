@@ -1,14 +1,15 @@
 {
   "name": "Nuvio Anime Providers",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "scrapers": [
     {
       "id": "animeflv",
       "name": "AnimeFLV",
-      "description": "Streams de anime desde AnimeFLV usando slug manual",
-      "version": "0.1.0",
+      "description": "Streams de anime desde AnimeFLV usando test hardcodeado",
+      "version": "0.1.1",
       "author": "TuNombre",
       "supportedTypes": [
+        "movie",
         "tv"
       ],
       "filename": "providers/animeflv.js",
@@ -21,7 +22,7 @@
       "formats": [
         "mp4"
       ],
-      "limited": true,
+      "limited": false,
       "supportsExternalPlayer": true
     }
   ]
